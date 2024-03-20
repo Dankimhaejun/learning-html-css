@@ -84,6 +84,24 @@ h4, p {
   height: 90%;
 } */
 
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  
+  li {
+    display: inline-block;
+  width: 60px;
+  text-align: center;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  }
+
+  a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
 
 .container {
   width: 100%;
