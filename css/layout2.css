@@ -2,10 +2,9 @@ body {
   margin: 0;
 }
 
-div {
+div, input, textarea {
   box-sizing: border-box;
 }
-
 .main-background {
   width: 100%;
   height: 500px;
@@ -38,7 +37,7 @@ div {
   cursor: pointer;
 }
 
-.main-cover {
+/* .main-cover {
   background-color: grey;
   width: 70%;
   padding: 2%;
@@ -48,4 +47,87 @@ div {
   text-align: center;
   position: relative;
   top: -30px;
+} */
+
+.main-cover {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
+}
+
+input, textarea {
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 800px;
+  height: 800px;
+  margin: auto;
+  background-color:grey;
+  position: relative;
+}
+
+.contact-box {
+  width: 60%;
+  height: 80%;
+  padding: 5% 3%;
+  background-color: #eee;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.w-70 {
+  width: 70%;
+  padding: 10px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.w-30 {
+  width: 30%;
+  padding: 10px;
+  float: left;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.contact-button {
+  width: 100%;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
 }
