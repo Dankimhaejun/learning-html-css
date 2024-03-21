@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url('/public/images/backgrounds/shoes.jpg'), url('/public/images/backgrounds/jeans.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  text-align: center;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 10%;
+}
+
+.main-content {
+  color: white;
+  font-size: 20px;
+}
+
+.main-button {
+  padding: 15px;
+  background-color: #f8f9fa;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-cover {
+  background-color: grey;
+  width: 70%;
+  padding: 2%;
+  height: 250;
+  margin: auto;
+  margin-top: auto;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
