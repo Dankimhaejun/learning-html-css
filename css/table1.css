@@ -13,7 +13,6 @@ h4 {
   padding: 2% 8%;
 }
 
-/* 테이블의 외부 테두리 제거 */
 .cart-table {
   width: 100%;
   border-collapse: collapse;
@@ -22,15 +21,15 @@ h4 {
   background-color: white;
 }
 
-.cart-table td, .cart-table th {
+.cart-table td,
+.cart-table th {
   border-bottom: 1px solid black;
   border-left: none;
   border-right: none;
   padding: 10px;
 }
 
-/* 마지막 행의 가로줄 제거 */
-.cart-table tr:last-child td{
+.cart-table tr:last-child td {
   border-bottom: none;
 }
 
@@ -39,12 +38,12 @@ th {
   text-align: center;
 }
 
-td>img {
+td > img {
   width: 100px;
   height: 100px;
 }
 
-tbody>tr>td:nth-child(3) {
+tbody > tr > td:nth-child(3) {
   text-align: end;
 }
 
@@ -58,7 +57,6 @@ td[colspan="5"] {
   align-items: center;
 }
 
-
 button {
   padding: 10px;
   background-color: white;
@@ -66,4 +64,27 @@ button {
   border-radius: 5px;
   cursor: pointer;
   margin-left: auto;
+}
+
+.home-cart-background {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.home-cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+}
+
+.home-cart-table td, .home-cart-table th {
+  padding: 15px;
+  border-bottom : 1px solid #c2d3de;
+}
+
+.home-cart-table th:nth-child(2) {
+  width: 400px;
 }
