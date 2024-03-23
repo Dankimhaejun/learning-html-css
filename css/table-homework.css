@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+.cart-bg {
+  background-color:aqua;
+  width: 100%;
+  max-width: 800px;
+  height: 80vh;
+  margin: auto;
+}
+
+.cart-container {
+  padding-top: 30px;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+.cart-table {
+  background-color: white;
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  border-radius: 5px;
+}
+
+th:nth-child(1) {
+  width: 60%;
+}
+
+.cart-total {
+  text-align: right;
+}
+
+td, th {
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+.cart-edit {
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+}
+
+.cart-payment-method {
+  position: absolute;
+  right: 0;
+}
