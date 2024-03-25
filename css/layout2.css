@@ -7,6 +7,9 @@ div, input, textarea {
 }
 
 .main-menu {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -175,12 +178,19 @@ li {
 }
 
 @media screen and (max-width: 992px) {
+  .main-menu {
+    max-width: 600px;
+  }
+
   .main-item {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 576px) {
+  .main-menu {
+    max-width: 400px;
+  }
   .main-item {
     width: 100%;
   }
