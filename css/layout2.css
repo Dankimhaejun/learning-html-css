@@ -5,6 +5,18 @@ body {
 div, input, textarea {
   box-sizing: border-box;
 }
+
+.main-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align:center
+}
+
+.main-item {
+  width: 25%;
+  padding: 10px;
+}
 .main-background {
   width: 100%;
   height: 500px;
@@ -130,4 +142,46 @@ label {
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+}
+
+ul {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  padding: 10px;
+}
+
+.logo-li {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+  li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-item {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-item {
+    width: 100%;
+  }
 }
