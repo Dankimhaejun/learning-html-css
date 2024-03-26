@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+}
+
+div, img {
+  box-sizing: border-box;
+}
+
+.shoes-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container {
+  width: 33%;
+  position: relative;
+}
+
+.overlay1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 2s;
+}
+
+.overlay1:hover {
+  opacity: 1;
+}
+
+.overlay2-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.overlay2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 110%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 2s;
+}
+
+.overlay2-wrapper:hover .overlay2 {
+  margin-top: 50%;
+}
+
+img {
+  width: 100%;
+}
